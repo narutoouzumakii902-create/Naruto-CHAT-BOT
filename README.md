@@ -3,9 +3,6 @@
 ❖ **`A Messenger Multi Device Bot To Take Your Messenger To Another Level!`**   
   
 <!-- Typing Animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=3000&pause=1000&color=00A8FF&center=true&vCenter=true&width=500&lines=Assalamualaikum+Everyone!;Welcome+To+SHAHADAT+CHAT+BOT+Fork!" />
-</p>
 
 <!-- Image -->
 <p align="center">
@@ -23,7 +20,7 @@
 
   <!-- Developed By -->
   <span style="font-size: 22px; font-weight: 700; color:#FF8A00;">
-    Developed By SHAHADAT SAHU
+    Developed By Ramit Maity 
   </span>
 
 </p>
