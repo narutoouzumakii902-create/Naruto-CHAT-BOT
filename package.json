@@ -1,7 +1,7 @@
 {
-  "name": "shahadat-chat-bot",
+  "name": "Ramit-chat-bot",
   "version": "2.0.0",
-  "description": "Made By SHAHADAT SAHU",
+  "description": "Made by Ramit Maity",
   "main": "Main.js",
   "engines": {
     "node": "20.x",
@@ -14,7 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT.git"
+    "url": "https://github.com/sha
+    
+  -/Ramit-CHAT-BOT.git"
   },
   "keywords": [
     "bot",
