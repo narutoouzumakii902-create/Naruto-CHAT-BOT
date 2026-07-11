@@ -7,7 +7,7 @@ module.exports.config = {
  name: "admin",
  version: "1.0.0",
  hasPermssion: 0,
- credits: "SHAHADAT SAHU",
+ credits: "Ramit Maity",
  description: "Show Owner Info",
  commandCategory: "info",
  usages: "admin",
@@ -15,35 +15,35 @@ module.exports.config = {
 };
 
 module.exports.run = async function({ api, event }) {
- const time = moment().tz("Asia/Dhaka").format("DD/MM/YYYY hh:mm:ss A");
+ const time = moment().tz("Asia/India").format("DD/MM/YYYY hh:mm:ss A");
 
  const callback = () => api.sendMessage({
  body: `
 ┌───────────────⭓
 │ 𝗢𝗪𝗡𝗘𝗥 𝗗𝗘𝗧𝗔𝗜𝗟𝗦
 ├───────────────
-│ 👤 𝐍𝐚𝐦𝐞 : 𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐈𝐬𝐥𝐚𝐦
+│ 👤 𝐍𝐚𝐦𝐞 : Ramit Maity 
 │ 🚹 𝐆𝐞𝐧𝐝𝐞𝐫 : 𝐌𝐚𝐥𝐞
 │ ❤️ 𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧 : 𝐒𝐢𝐧𝐠𝐥𝐞
-│ 🎂 𝐀𝐠𝐞 : 𝟏𝟖+
-│ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧 : 𝐈𝐬𝐥𝐚𝐦
-│ 🎓 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : 𝐇𝐒𝐂 (𝟐𝟎𝟐𝟔)
-│ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : 𝐊𝐡𝐚𝐠𝐫𝐚𝐜𝐡𝐡𝐚𝐫𝐢
+│ 🎂 𝐀𝐠𝐞 : 20+
+│ 🕌 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧 : Hindu
+│ 🎓 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧 : It
+│ 🏡 𝐀𝐝𝐝𝐫𝐞𝐬𝐬 : Kolkata
 └───────────────⭓
 
 ┌───────────────⭓
 │ 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 𝗟𝗜𝗡𝗞𝗦
 ├───────────────
 │ 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
-│ https://fb.com/100001039692046
+│ https://www.facebook.com/profile.php?id=61590390158375
 │ 💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
-│ https://wa.me/01882333052
+│ Sorry Dite parbo na
 └───────────────⭓
 
 ┌───────────────⭓
 │ 🕒 𝗨𝗽𝗱𝗮𝘁𝗲𝗱 𝗧𝗶𝗺𝗲
 ├───────────────
-│ ${time}
+│ ${24 hours}
 └───────────────⭓
  `,
  attachment: fs.createReadStream(__dirname + "/cache/owner.jpg")
